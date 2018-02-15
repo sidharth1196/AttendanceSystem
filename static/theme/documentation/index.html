@@ -1,0 +1,881 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Kertas - Responsive Admin Template</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="VergoLabs">
+	<meta name="copyright" content="VergoLabs">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2014-06-30T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	<link rel="icon" href="../html/assets/img/favicon.ico">
+	
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#EEEEEE;color:#383838;}
+		::-moz-selection{background:#333636;color:#0088FF;}
+		::selection{background:#333636;color:#0088FF;}
+		#documenter_sidebar #documenter_logo{background-image:url(../html/assets/img/logo.png);background-size:contain;width:150px;margin:0 auto;}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#343838), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #AAAAAA;border-bottom:1px solid #EEEEEE;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#343838;color:#FFFFFF;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #494F4F;-moz-text-shadow:1px 1px 0px #494F4F;text-shadow:1px 1px 0px #494F4F;}
+		#documenter_sidebar ul{border-top:1px solid #212424;}
+		#documenter_sidebar ul a{border-top:1px solid #494F4F;border-bottom:1px solid #212424;color:#FFFFFF;}
+		#documenter_sidebar ul a:hover{background:#333636;color:#0088FF;border-top:1px solid #333636;}
+		#documenter_sidebar ul a.current{background:#333636;color:#0088FF;border-top:1px solid #333636;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+		#documenter_copyright a{color:#0088FF;}
+		#documenter_content table th{text-align:center;}
+		table, tr, th, td{border:1px solid #ccc;}
+	</style>
+	
+</head>
+<body class="documenter-project-kertas">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#template" title="Template">Template</a></li>
+			<li><a href="#features" title="Features">Features</a></li>
+			<li><a href="#files_structure" title="Files Structure">Files Structure</a></li>
+			<li><a href="#html_structure" title="HTML Structure">HTML Structure</a></li>
+			<li><a href="#css_structure" title="CSS Structure">CSS Structure</a></li>
+			<li><a href="#js_structure" title="JS Structure">JS Structure</a></li>
+			<li><a href="#plugin" title="Plugin">Plugin</a></li>
+			<li><a href="#frontend_page" title="Frontend Page">Frontend Page</a></li>
+			<li><a href="#sources_credits" title="Sources & Credits">Sources & Credits</a></li>
+			<li><a href="#changelog" title="Changelog">Changelog</a></li>
+			<li><a href="#support" title="Support">Support</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright VergoLabs 2014<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Kertas</h1>
+	<h2>Responsive Admin Template</h2>
+	<div id="documenter_buttons">
+		<a href="mailto:vergolabs@gmail.com" class="btn btn-primary btn-large">Email Us</a>
+	</div>
+	<hr>
+	<ul>
+	<li>created: 06/30/2014</li>
+	<li>latest update: 06/30/2014</li>
+	<li>by: VergoLabs</li>
+	
+	<li>email: <a href="mailto:&#118;&#101;&#114;&#103;&#111;&#108;&#97;&#98;&#115;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#118;&#101;&#114;&#103;&#111;&#108;&#97;&#98;&#115;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>Thank you for purchasing our template. If you have any questions that are beyond the scope of this help file, please feel free to e-mail our support at &#118;&#101;&#114;&#103;&#111;&#108;&#97;&#98;&#115;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;. Thanks so much!</p>
+	</section>
+	
+	<section id="template">
+	<div class="page-header"><h3>Template</h3><hr class="notop"></div>
+<p>
+	This theme is built on a responsive Bootstrap 3 framework. As show in the picture, the template consist of:</p>
+<p>
+	<img alt="" src="assets/images/doc_admin.png" style="width: 100%;"></p>
+<p>
+	Header &ndash; Consist of logo identity, toggle button, news flash, and dropdown menu</p>
+<p>
+	Sidebar &ndash; Consist of user image and details and main menu</p>
+<p>
+	Main Content &ndash; Consist of admin content</p>
+</section>
+<section id="features">
+	<div class="page-header"><h3>Features</h3><hr class="notop"></div>
+<ul>
+	<li>
+		Based on Bootstrap v3.2.0</li>
+	<li>
+		Latest jQuery v2.1.0</li>
+	<li>
+		Latest Custom jQuery UI v1.10.4</li>
+	<li>
+		Font Awesome 4.1.0</li>
+	<li>
+		Clean and responsive design</li>
+	<li>
+		10 skins color</li>
+	<li>
+		37 HTML Admin pages + Frontend page</li>
+	<li>
+		Charts &amp; Graphs (Lines, Area, Live, Bar, Stacked, Pie, Donut)</li>
+	<li>
+		UI elements:
+		<ul style="margin-top:0px;margin-bottom:0px;">
+			<li>
+				Buttons &amp; Icons</li>
+			<li>
+				Draggable List (Nestable)</li>
+			<li>
+				Gritter Notification (Basic, 6 Solid Colors, 4 Different Positions)</li>
+			<li>
+				Basic Modal &amp; Nifty Modal (16 effects)</li>
+			<li>
+				Progress&nbsp; Bars</li>
+			<li>
+				Tabs &amp; Accordions</li>
+			<li>
+				Typography</li>
+		</ul>
+	</li>
+	<li>
+		Form elements:
+		<ul style="margin-top:0px;margin-bottom:0px;">
+			<li>
+				iCheck, Switchery, &amp; Select2</li>
+			<li>
+				Bootstrap DateTime Picker</li>
+			<li>
+				Bootstrap Color Picker</li>
+			<li>
+				Bootstrap Slider</li>
+			<li>
+				Input Mask</li>
+			<li>
+				Form Validation</li>
+			<li>
+				Form Wizard</li>
+			<li>
+				Summernote WYSIWYG</li>
+			<li>
+				Multi Upload (Dropzone)</li>
+		</ul>
+	</li>
+	<li>
+		Integrated DataTables</li>
+	<li>
+		Integrated GMaps &amp; Vector Maps</li>
+	<li>
+		Integrated FullCalendar</li>
+	<li>
+		Code Editor</li>
+	<li>
+		Email page</li>
+	<li>
+		Invoice page</li>
+	<li>
+		Search Result page</li>
+	<li>
+		Support Ticket page</li>
+	<li>
+		Weather Icon (Skycons)</li>
+	<li>
+		Magnific Popup</li>
+	<li>
+		Detailed Documentation</li>
+	<li>
+		Well structured code</li>
+</ul>
+</section>
+<section id="files_structure">
+	<div class="page-header"><h3>Files Structure</h3><hr class="notop"></div>
+<p>
+	In downloaded package you&#39;ll find &quot;html&quot; folder, which contains main theme files: HTML files and Assets folder. In Assets folder contains css, image, javascript, and plugins file.</p>
+<pre>
+html/
+├── assets/
+│      ├── css/
+│      ├── img/
+│      ├── js/
+│      ├── plugins/</pre>
+<p>
+	&nbsp;</p>
+<p>
+	Main CSS files located in assets/css</p>
+<ul>
+	<li>
+		main.css</li>
+	<li>
+		skins.css</li>
+</ul>
+<p>
+	&nbsp;</p>
+<p>
+	Main JS files located in assets/js</p>
+<ul>
+	<li>
+		main.js</li>
+	<li>
+		skin-selector.js</li>
+</ul>
+</section>
+<section id="html_structure">
+	<div class="page-header"><h3>HTML Structure</h3><hr class="notop"></div>
+<p>
+	In total there are 37 main theme .html files:</p>
+<ul>
+	<li>
+		<strong>index.html</strong> &ndash; dashboard page</li>
+	<li>
+		<strong>charts.html</strong> &ndash; charts &amp; graphs page</li>
+	<li>
+		<strong>email.html</strong> &ndash; email page</li>
+	<li>
+		<strong>forms-components.html</strong> &ndash; basic form components page</li>
+	<li>
+		<strong>forms-masks.html</strong> &ndash; form with input masks page</li>
+	<li>
+		<strong>forms-upload.html</strong> &ndash; form using multi upload page</li>
+	<li>
+		<strong>forms-validation.html</strong> &ndash; input validation page</li>
+	<li>
+		<strong>forms-wizard.html</strong> &ndash; form wizard page</li>
+	<li>
+		<strong>forms-wysiwyg.html</strong> &ndash; WYSIWYG page</li>
+	<li>
+		<strong>lockscreen.html</strong> &ndash; lockscreen form page</li>
+	<li>
+		<strong>login.html</strong> &ndash; login form page</li>
+	<li>
+		<strong>maps-google.html</strong> &ndash; google map page</li>
+	<li>
+		<strong>maps-vector.html</strong> &ndash; vector map page</li>
+	<li>
+		<strong>pages-blank.html</strong> &ndash; basic blank page</li>
+	<li>
+		<strong>pages-blank-header.html</strong> &ndash; basic blank page with header</li>
+	<li>
+		<strong>pages-calendar.html</strong> &ndash; calendar with schedule page</li>
+	<li>
+		<strong>pages-code.html</strong> &ndash; code editor page</li>
+	<li>
+		<strong>pages-gallery.html </strong>&ndash; images gallery page</li>
+	<li>
+		<strong>pages-invoice.html </strong>&ndash; invoice page with print option</li>
+	<li>
+		<strong>pages-search.html</strong> &ndash; search result page</li>
+	<li>
+		<strong>pages-support.html</strong> &ndash; support ticket page</li>
+	<li>
+		<strong>pages-timeline.html</strong> &ndash; timeline page</li>
+	<li>
+		<strong>pages-user.html </strong>&ndash; user profile page</li>
+	<li>
+		<strong>register.html</strong> &ndash; register form page</li>
+	<li>
+		<strong>tables-basic.html</strong> &ndash; table example page</li>
+	<li>
+		<strong>tables-datatables.html</strong> &ndash; datatable example page</li>
+	<li>
+		<strong>ui-buttons.html</strong> &ndash; buttons example page</li>
+	<li>
+		<strong>ui-general.html</strong> &ndash; general user interface page</li>
+	<li>
+		<strong>ui-grid.html</strong> &ndash; bootstrap &amp; custom grid page</li>
+	<li>
+		<strong>ui-group-list.html</strong> &ndash; draggable list page</li>
+	<li>
+		<strong>ui-icons.html</strong> &ndash; FontAwesome icons page</li>
+	<li>
+		<strong>ui-messages.html</strong> &ndash; messages &amp; notifications page</li>
+	<li>
+		<strong>ui-modals.html</strong> &ndash; modals example page</li>
+	<li>
+		<strong>ui-tabs.html</strong> &ndash; tabs &amp; accordions page</li>
+	<li>
+		<strong>ui-typography.html</strong> &ndash; typography example page</li>
+	<li>
+		<strong>404.html</strong> &ndash; 404 error page</li>
+	<li>
+		<strong>500.html</strong> &ndash; 500 error page</li>
+</ul>
+<p>
+	&nbsp;</p>
+<p>
+	All these html files have certain html blocks in their source code. All the html blocks are clearly commented out and should be easy to spot. Each HTML file contains left navigation sidebar. The main structure of a typical page would be:</p>
+<p>
+	&nbsp;</p>
+<pre class="prettyprint lang-html linenums">
+&lt;!-- BEGIN HEADER --&gt;
+
+&lt;header class=&quot;header&quot;&gt;
+
+     &lt;!-- BEGIN NAVBAR --&gt;
+
+     &lt;nav class=&quot;navbar navbar-static-top&quot; role=&quot;navigation&quot;&gt;&lt;/nav&gt;
+
+     &lt;!-- END NAVBAR --&gt;
+
+&lt;/header&gt;
+
+&lt;!-- END HEADER --&gt;
+
+
+&lt;div class=&quot;wrapper row-offcanvas row-offcanvas-left&quot;&gt;
+
+     &lt;!-- BEGIN SIDEBAR --&gt;
+
+     &lt;aside class=&quot;left-side sidebar-offcanvas&quot;&gt;&lt;/aside&gt;
+
+     &lt;!-- END SIDEBAR --&gt;
+
+
+     &lt;!-- BEGIN CONTENT --&gt;
+
+     &lt;aside class=&quot;right-side&quot;&gt;
+
+          &lt;!-- BEGIN CONTENT HEADER --&gt;
+
+          &lt;section class=&quot;content-header&quot;&gt;&lt;/section&gt;
+
+          &lt;!-- END CONTENT HEADER --&gt;
+
+
+          &lt;!-- BEGIN MAIN CONTENT --&gt;
+
+          &lt;section class=&quot;content&quot;&gt;&lt;/section&gt;
+
+          &lt;!-- END MAIN CONTENT --&gt;
+
+     &lt;/aside&gt;
+
+     &lt;!-- END CONTENT --&gt;
+
+
+     &lt;!-- BEGIN SCROLL TO TOP --&gt;
+
+     &lt;div class=&quot;scroll-to-top&quot;&gt;&lt;/div&gt;
+
+     &lt;!-- END SCROLL TO TOP --&gt;
+
+&lt;/div&gt;</pre>
+<p>
+	&nbsp;</p>
+<p>
+	To change skin, you need to replace skin class in body tag:</p>
+<pre class="prettyprint lang-html linenums">
+&lt;body class=&quot;skin-dark&quot;&gt;
+...
+&lt;/body&gt;</pre>
+<p>
+	&nbsp;</p>
+<p>
+	Available skins:</p>
+<pre class="prettyprint lang-html linenums">
+skin-dark, skin-gray, skin-light, skin-blue, skin-green, skin-turquoise, skin-purple, skin-red, skin-orange, and skin-yellow</pre>
+<p>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>
+	If you want to remove skins selector in your page, delete this tag:</p>
+<pre class="prettyprint lang-html linenums">
+&lt;script src=&quot;assets/js/skin-selector.js&quot;&gt;&lt;/script&gt;</pre>
+</section>
+<section id="css_structure">
+	<div class="page-header"><h3>CSS Structure</h3><hr class="notop"></div>
+<p>
+	In total there are 2 css files:</p>
+<ul>
+	<li>
+		<strong>main.css</strong> &ndash; main css file with general styles &amp; plugin styles</li>
+	<li>
+		<strong>skins.css</strong> &ndash; css file for custom skin</li>
+</ul>
+<p>
+	&nbsp;</p>
+<p>
+	Inside HTML page header, include main.css and skins.css file:</p>
+<pre class="prettyprint lang-html linenums">
+&lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/main.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/skins.css&quot;&gt;</pre>
+<p>
+	&nbsp;</p>
+<p>
+	We used <strong>Open Sans</strong> font from Google Font Library. To replace the font, open <strong>main.css</strong> and change the Google Font url in line 8:</p>
+<pre class="prettyprint lang-css linenums">
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);</pre>
+<p>
+	&nbsp;</p>
+<p>
+	Then change font-family value in line 14:</p>
+<pre class="prettyprint lang-css linenums">
+font-family: &#39;Open Sans&#39;, sans-serif;</pre>
+<p>
+	&nbsp;</p>
+<p>
+	All CSS files are well commented, so you can easily find and edit any class in any CSS file.</p>
+</section>
+<section id="js_structure">
+	<div class="page-header"><h3>JS Structure</h3><hr class="notop"></div>
+<p>
+	In total there are 10 JS files:</p>
+<ul>
+	<li>
+		<strong>calendar.js</strong> &ndash; FullCalendar javascript</li>
+	<li>
+		<strong>chart.js</strong> &ndash; Flot and Knob chart data</li>
+	<li>
+		<strong>dashboard.js</strong> &ndash; dashboard page javascript</li>
+	<li>
+		<strong>datatables.js</strong> &ndash; DataTables plugin</li>
+	<li>
+		<strong>form.js</strong> &ndash; form page javascript</li>
+	<li>
+		<strong>main.js</strong> &ndash; main javascript file</li>
+	<li>
+		<strong>map.js</strong> &ndash; to create vector map</li>
+	<li>
+		<strong>notification.js</strong> &ndash; javascript for gritter notification</li>
+	<li>
+		<strong>skin-selector.js</strong> &ndash; change skin</li>
+	<li>
+		<strong>validation.js</strong> &ndash; form validation javascript</li>
+</ul>
+<p>
+	&nbsp;</p>
+<p>
+	In general each HTML page loads only required .js files. In your project you can minify all these files into 1 or do anything you want, but in download package we included all files so you can easily add/edit/remove new files. Include JS file in bottom page, so page will load faster.</p>
+<p>
+	&nbsp;</p>
+<pre class="prettyprint lang-html linenums">
+&lt;script src=&quot;assets/js/main.js&quot;&gt;&lt;/script&gt;</pre>
+<p>
+	&nbsp;</p>
+<p>
+	If you want to remove skins selector in your page, delete this tag:</p>
+<pre class="prettyprint lang-html linenums">
+&lt;script src=&quot;assets/js/skin-selector.js&quot;&gt;&lt;/script&gt;</pre>
+<p>
+	&nbsp;</p>
+<p>
+	All JS files are well commented, so you can easily find and edit any code in any JS file.</p>
+</section>
+<section id="plugin">
+	<div class="page-header"><h3>Plugin</h3><hr class="notop"></div>
+<p>
+	Below is the list of all plugins and external resources used in this template.</p>
+<table cellpadding="1" cellspacing="1" style="width: 100%;">
+	<thead>
+		<tr>
+			<th scope="col">
+				PLUGIN NAME</th>
+			<th scope="col">
+				VERSION</th>
+			<th scope="col">
+				DESCRIPTION</th>
+			<th scope="col">
+				URL</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				jQuery</td>
+			<td>
+				2.1.0</td>
+			<td>
+				jQuery is a fast, small, and feature-rich JavaScript library.</td>
+			<td>
+				<a href="http://jquery.com/">http://jquery.com/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery UI</td>
+			<td>
+				1.10.4</td>
+			<td>
+				jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.</td>
+			<td>
+				<a href="http://jqueryui.com">http://jqueryui.com</a></td>
+		</tr>
+		<tr>
+			<td>
+				Bootstrap</td>
+			<td>
+				3.1.1</td>
+			<td>
+				Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</td>
+			<td>
+				<a href="http://getbootstrap.com/">http://getbootstrap.com/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Bootstrap Color Picker</td>
+			<td>
+				2.0</td>
+			<td>
+				Colorpicker plugin for the Twitter Bootstrap toolkit.</td>
+			<td>
+				<a href="http://mjolnic.github.io/bootstrap-colorpicker/">http://mjolnic.github.io/bootstrap-colorpicker/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Bootstrap DateTime Picker</td>
+			<td>
+				unknown</td>
+			<td>
+				Both Date and Time picker widget based on twitter bootstrap (supports Bootstrap v2 and v3).</td>
+			<td>
+				<a href="http://www.malot.fr/bootstrap-datetimepicker/">http://www.malot.fr/bootstrap-datetimepicker/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Bootstrap Slider</td>
+			<td>
+				2.0.0</td>
+			<td>
+				Slider for Twitter Bootstrap</td>
+			<td>
+				<a href="http://www.eyecon.ro/bootstrap-slider/">http://www.eyecon.ro/bootstrap-slider/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Bootstrap Summernote</td>
+			<td>
+				0.5.2</td>
+			<td>
+				Super simple WYSIWYG editor on Bootstrap.</td>
+			<td>
+				<a href="http://hackerwins.github.io/summernote/">http://hackerwins.github.io/summernote/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Bootstrap Wizard</td>
+			<td>
+				1.0</td>
+			<td>
+				This Twitter Bootstrap plugin builds a wizard using a formatted tabbable structure.</td>
+			<td>
+				<a href="https://github.com/VinceG/twitter-bootstrap-wizard/">https://github.com/VinceG/twitter-bootstrap-wizard/</a></td>
+		</tr>
+		<tr>
+			<td>
+				CodeMirror</td>
+			<td>
+				4.3</td>
+			<td>
+				CodeMirror is a versatile text editor implemented in JavaScript for the browser.</td>
+			<td>
+				<a href="http://codemirror.net/">http://codemirror.net/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Dropzone</td>
+			<td>
+				3.10.2</td>
+			<td>
+				Dropzone.js is a light weight JavaScript library that turns an HTML element into a dropzone.</td>
+			<td>
+				<a href="https://github.com/enyo/dropzone/">https://github.com/enyo/dropzone/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Font Awesome</td>
+			<td>
+				4.1.0</td>
+			<td>
+				Font Awesome gives you scalable vector icons that can instantly be customized &ndash; size, color, drop shadow, and anything that can be done with the power of CSS.</td>
+			<td>
+				<a href="http://fontawesome.io/">http://fontawesome.io/</a></td>
+		</tr>
+		<tr>
+			<td>
+				FullCalendar</td>
+			<td>
+				2.0.0</td>
+			<td>
+				FullCalendar is a jQuery plugin that provides a full-sized, drag &amp; drop calendar.</td>
+			<td>
+				<a href="http://arshaw.com/fullcalendar/">http://arshaw.com/fullcalendar/</a></td>
+		</tr>
+		<tr>
+			<td>
+				GMaps</td>
+			<td>
+				0.4.12</td>
+			<td>
+				gmaps.js allows you to use the potential of Google Maps in a simple way.</td>
+			<td>
+				<a href="http://hpneo.github.com/gmaps/">http://hpneo.github.com/gmaps/</a></td>
+		</tr>
+		<tr>
+			<td>
+				iCheck</td>
+			<td>
+				1.0.2</td>
+			<td>
+				Powerful jQuery and Zepto plugin for checkboxes and radio buttons customization.</td>
+			<td>
+				<a href="https://github.com/fronteed/iCheck/">https://github.com/fronteed/iCheck/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery BlockUI</td>
+			<td>
+				2.66.0</td>
+			<td>
+				The jQuery BlockUI Plugin lets you simulate synchronous behavior when using AJAX, without locking the browser.</td>
+			<td>
+				<a href="http://malsup.com/jquery/block/">http://malsup.com/jquery/block/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery DataTables</td>
+			<td>
+				1.10.0</td>
+			<td>
+				DataTables is a powerful jQuery plugin for creating table listings and adding interactions to them.</td>
+			<td>
+				<a href="http://www.datatables.net/">http://www.datatables.net/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery Flot</td>
+			<td>
+				0.8.3</td>
+			<td>
+				Flot is a pure JavaScript plotting library for jQuery, with a focus on simple usage, attractive looks and interactive features.</td>
+			<td>
+				<a href="http://www.flotcharts.org/">http://www.flotcharts.org/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery Gritter</td>
+			<td>
+				1.7.4</td>
+			<td>
+				A small growl-like notification plugin for jQuery.</td>
+			<td>
+				<a href="https://github.com/jboesch/Gritter/">https://github.com/jboesch/Gritter/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery jVectorMap</td>
+			<td>
+				1.2.2</td>
+			<td>
+				jVectorMap is a jQuery plugin employed to show vector maps and visualize data on HTML pages.</td>
+			<td>
+				<a href="http://jvectormap.com/">http://jvectormap.com/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery Knob</td>
+			<td>
+				1.2.8</td>
+			<td>
+				Nice, downward compatible, touchable, jQuery dial.</td>
+			<td>
+				<a href="https://github.com/aterrien/jQuery-Knob">https://github.com/aterrien/jQuery-Knob</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery Magnific Popup</td>
+			<td>
+				0.9.9</td>
+			<td>
+				Magnific Popup is a responsive lightbox &amp; dialog script with focus on performance and providing best experience for user with any device.</td>
+			<td>
+				<a href="http://dimsemenov.com/plugins/magnific-popup/">http://dimsemenov.com/plugins/magnific-popup/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery MaskedInput</td>
+			<td>
+				1.3.1</td>
+			<td>
+				Masked Input plugin for jQuery</td>
+			<td>
+				<a href="http://digitalbush.com/projects/masked-input-plugin/">http://digitalbush.com/projects/masked-input-plugin/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery Nestable</td>
+			<td>
+				unknown</td>
+			<td>
+				Drag &amp; drop hierarchical list with mouse and touch compatibility.</td>
+			<td>
+				<a href="https://github.com/dbushell/Nestable/">https://github.com/dbushell/Nestable/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery NiftyModal</td>
+			<td>
+				unknown</td>
+			<td>
+				A set of experimental modal window appearance effects with CSS transitions and animations.</td>
+			<td>
+				<a href="https://github.com/codrops/ModalWindowEffects/">https://github.com/codrops/ModalWindowEffects/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery Resize</td>
+			<td>
+				1.1</td>
+			<td>
+				With jQuery resize event, you can now bind resize event handlers to elements other than window, for super-awesome-resizing-greatness.</td>
+			<td>
+				<a href="http://benalman.com/projects/jquery-resize-plugin/">http://benalman.com/projects/jquery-resize-plugin/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery Sparkline</td>
+			<td>
+				2.1.2</td>
+			<td>
+				Generates inline sparkline charts from data supplied either to the method or inline in HTML</td>
+			<td>
+				<a href="http://omnipotent.net/jquery.sparkline/">http://omnipotent.net/jquery.sparkline/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery Totem Ticker</td>
+			<td>
+				unknown</td>
+			<td>
+				Totem is a jQuery plugin that turns lists into animated vertical tickers.</td>
+			<td>
+				<a href="https://github.com/buildinternet/totem/">https://github.com/buildinternet/totem/</a></td>
+		</tr>
+		<tr>
+			<td>
+				jQuery Validation</td>
+			<td>
+				1.12.0</td>
+			<td>
+				This jQuery plugin makes simple clientside form validation easy, whilst still offering plenty of customization options.</td>
+			<td>
+				<a href="http://jqueryvalidation.org/">http://jqueryvalidation.org/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Pace</td>
+			<td>
+				0.5.1</td>
+			<td>
+				Automatic page load progress bar</td>
+			<td>
+				<a href="http://github.hubspot.com/pace/">http://github.hubspot.com/pace/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Select2</td>
+			<td>
+				3.5.0</td>
+			<td>
+				Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.</td>
+			<td>
+				<a href="http://ivaynberg.github.io/select2/">http://ivaynberg.github.io/select2/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Skycons</td>
+			<td>
+				unknown</td>
+			<td>
+				Skycons is a set of ten animated weather glyphs, procedurally generated by JavaScript using the HTML5 canvas tag.</td>
+			<td>
+				<a href="http://darkskyapp.github.io/skycons/">http://darkskyapp.github.io/skycons/</a></td>
+		</tr>
+		<tr>
+			<td>
+				Switchery</td>
+			<td>
+				0.6.0</td>
+			<td>
+				Switchery is a simple component that helps you turn your default HTML checkbox inputs into beautiful iOS 7 style switches in just few simple steps.</td>
+			<td>
+				<a href="http://abpetkov.github.io/switchery/">http://abpetkov.github.io/switchery/</a></td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+</section>
+<section id="frontend_page">
+	<div class="page-header"><h3>Frontend Page</h3><hr class="notop"></div>
+<p>
+	One-page HTML landing page.</p>
+<div class="alert alert-error">
+	<strong>IMPORTANT:</strong> If you are using Font Awesome then you might have noticed that icons fonts doesn&rsquo;t appear in Firefox and it happens when you try to use CDN services.</div>
+<p>
+	To fix this issue, you have to just copy the exact code snippet below into your website&rsquo;s .htaccess file.</p>
+<pre class="prettyprint lang-html linenums" style="box-sizing: border-box; font-family: monospace, serif; white-space: pre-wrap; border-color: rgb(204, 204, 204); line-height: 16px; margin-top: 6px; margin-bottom: 6px; padding: 2px 7px; word-wrap: normal; overflow: auto; width: 740.875px; color: rgb(37, 37, 37);">
+<span class="tag" style="box-sizing: border-box; color: rgb(0, 0, 136);">&lt;FilesMatch</span><span class="pln" style="box-sizing: border-box; color: rgb(0, 0, 0);"> </span><span class="atv" style="box-sizing: border-box; color: rgb(0, 136, 0);">&quot;.(ttf|otf|eot|woff)$&quot;</span><span class="tag" style="box-sizing: border-box; color: rgb(0, 0, 136);">&gt;</span>
+<span class="pln" style="box-sizing: border-box; color: rgb(0, 0, 0);">  </span><span class="tag" style="box-sizing: border-box; color: rgb(0, 0, 136);">&lt;IfModule</span><span class="pln" style="box-sizing: border-box; color: rgb(0, 0, 0);"> </span><span class="atn" style="box-sizing: border-box; color: rgb(102, 0, 102);">mod_headers</span><span class="pln" style="box-sizing: border-box; color: rgb(0, 0, 0);">.</span><span class="atn" style="box-sizing: border-box; color: rgb(102, 0, 102);">c</span><span class="tag" style="box-sizing: border-box; color: rgb(0, 0, 136);">&gt;</span>
+<span class="pln" style="box-sizing: border-box; color: rgb(0, 0, 0);">    Header set Access-Control-Allow-Origin &quot;*&quot;
+  </span><span class="tag" style="box-sizing: border-box; color: rgb(0, 0, 136);">&lt;/IfModule&gt;</span>
+<span class="tag" style="box-sizing: border-box; color: rgb(0, 0, 136);">&lt;/FilesMatch&gt;</span></pre>
+<p>
+	For more information, visit this <a href="http://wpvkp.com/font-awesome-doesnt-display-in-firefox-maxcdn/">site</a>.</p>
+<p>
+	<img alt="" src="assets/images/doc_frontend.png" width="100%" ></p>
+<p>
+	&nbsp;</p>
+</section>
+<section id="sources_credits">
+	<div class="page-header"><h3>Sources & Credits</h3><hr class="notop"></div>
+<p>
+	I&#39;ve used the following images, icons or other files as listed.</p>
+<p>
+	Background: <a href="http://graphicburger.com/">http://graphicburger.com/</a></p>
+<p>
+	Cover: <a href="http://picjumbo.com/">http://picjumbo.com/</a></p>
+<p>
+	Gallery: <a href="http://www.gratisography.com/">http://www.gratisography.com/</a></p>
+<p>
+	Photos: <a href="http://www.freedigitalphotos.net/">http://www.freedigitalphotos.net/</a></p>
+<p>
+	Plugin: see <a href="#plugin">Plugin</a></p>
+</section>
+<section id="changelog">
+	<div class="page-header"><h3>Changelog</h3><hr class="notop"></div>
+<p>
+	<strong>Version 1.0.0</strong></p>
+<p>
+	Initial Release</p>
+</section>
+<section id="support">
+	<div class="page-header"><h3>Support</h3><hr class="notop"></div>
+<p>
+	Once again, thank you so much for purchasing this template. We&rsquo;ll be glad to help you if you have any questions relating to this template. No guarantees, but we&#39;ll do our best to assist. We are always there to help, drop us a message at <a href="mailto:&#118;&#101;&#114;&#103;&#111;&#108;&#97;&#98;&#115;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#118;&#101;&#114;&#103;&#111;&#108;&#97;&#98;&#115;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>.</p>
+<p>
+	<strong>VergoLabs</strong></p>
+</section>
+
+	</div>
+</body>
+</html>
